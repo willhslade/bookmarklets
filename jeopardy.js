@@ -1,0 +1,1 @@
+javascript:function url() { var date = new Date(); date.setDate(date.getDate() - 1); var y = date.getFullYear();  var m = date.getMonth() + 1; if(m < 10){m = '0' + m;} var d = date.getDate(); if(d < 10){d = '0' + d;} var date = m + '/' + d + '/' + y; return 'https://www.google.com/search?q=jeopardy full episode youtube %27 + date;} window.open(url(),"_blank");
